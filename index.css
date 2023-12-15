@@ -80,7 +80,7 @@ a {
   border: 1px solid black;
 }
 
-#project .item .title-box .period {
+.period {
   color: gray;
 }
 
@@ -105,10 +105,10 @@ a {
   min-width: 10rem;
 }
 
-#stack .language-list .stack-list-item h5 {
+#stack .stack-list .stack-list-item h5 {
   min-width: 10rem;
 }
 
-#stack .language-list .stack-list-item h5 svg {
+#stack .stack-list .stack-list-item h5 svg {
   width: 2rem;
 }

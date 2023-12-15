@@ -43,7 +43,7 @@ a {
   margin-bottom: 2rem;
 }
 
-.photo {
+#info .photo {
   width: 40%;
 }
 
@@ -60,6 +60,10 @@ a {
   width: 1rem;
 }
 
+#info-small .photo {
+  width: 80%;
+}
+
 #remark {
   text-align: center;
 }
@@ -69,13 +73,7 @@ a {
   height: 3rem;
 }
 
-#project .item .title-box {
-  min-width: 250px;
-  max-width: 300px;
-}
-
 #project .item .title-box img.project-title {
-  height: 200px;
   object-fit: contain;
   border: 1px solid black;
 }
@@ -111,4 +109,25 @@ a {
 
 #stack .stack-list .stack-list-item h5 svg {
   width: 2rem;
+}
+
+#modal {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* @media screen and (min-width: 576px) { */
+@media screen and (min-width: 768px) {
+  #project .item .title-box {
+    min-width: 250px;
+    max-width: 300px;
+  }
+
+  #project .item .title-box img.project-title {
+    height: 200px;
+  }
 }

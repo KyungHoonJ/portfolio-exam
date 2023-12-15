@@ -1,0 +1,114 @@
+img {
+  width: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.square {
+  width: 100%;
+  position: relative;
+}
+
+.square::after {
+  width: 100%;
+  padding-bottom: 100%;
+  content: "";
+  display: block;
+}
+
+.square .inner-square {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#root {
+  padding: 1rem;
+}
+
+#root > div {
+  margin-bottom: 2rem;
+}
+
+.photo {
+  width: 40%;
+}
+
+.introduction .represent-id {
+  font-size: 1rem;
+  color: gray;
+}
+
+.links {
+  white-space: nowrap;
+}
+
+.links svg {
+  width: 1rem;
+}
+
+#remark {
+  text-align: center;
+}
+
+#remark svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+#project .item .title-box {
+  min-width: 250px;
+  max-width: 300px;
+}
+
+#project .item .title-box img.project-title {
+  height: 200px;
+  object-fit: contain;
+  border: 1px solid black;
+}
+
+#project .item .title-box .period {
+  color: gray;
+}
+
+#project .item .infomation > * {
+  margin-bottom: 1.5rem;
+}
+
+#project .item .infomation .project-title svg {
+  width: 2rem;
+}
+
+#project .item .infomation .stack-list svg {
+  width: 3rem;
+  margin: 0.5rem;
+}
+
+#stack .list {
+  margin-top: 2rem;
+}
+
+#stack .stack-item h3 {
+  min-width: 10rem;
+}
+
+#stack .language-list .stack-list-item h5 {
+  min-width: 10rem;
+}
+
+#stack .language-list .stack-list-item h5 svg {
+  width: 2rem;
+}
